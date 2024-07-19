@@ -1,11 +1,12 @@
 {
-  "name": "repository-name",
-  "dependencies": {
-    "@dataform/core": "2.0.3",
-    "lodash": "^4.17.21"
-  },
+  "name": "dataform-custom-package",
+  "version": "1.0.0",
+  "description": "A custom package for Dataform SQL workflows",
+  "main": "index.js",
   "scripts": {
-    "artifactregistry-login": "npx google-artifactregistry-auth"
-  }
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["dataform", "sql", "workflow"],
+  "author": "Your Name",
+  "license": "ISC"
 }
-
