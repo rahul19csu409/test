@@ -1,3 +1,11 @@
-"scripts": {
-  "artifactregistry-login": "npx google-artifactregistry-auth"
+{
+  "name": "repository-name",
+  "dependencies": {
+    "@dataform/core": "2.0.3",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "artifactregistry-login": "npx google-artifactregistry-auth"
+  }
 }
+

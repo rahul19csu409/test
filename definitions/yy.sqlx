@@ -1,0 +1,12 @@
+config {
+    type: "table",
+}
+
+js {
+    const {
+        chunk
+    } = require("@blue/lodash");
+}
+
+SELECT
+  ${chunk(["one", "two", "three", "four"], 2)} AS chunked_array
