@@ -1,0 +1,3 @@
+"scripts": {
+  "artifactregistry-login": "npx google-artifactregistry-auth"
+}
